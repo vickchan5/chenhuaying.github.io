@@ -48,3 +48,12 @@ I was raised between Guangdong and Hong Kong SAR, China. Over the years, my acad
     padding-bottom: 60px !important;
   }
 </style>
+<style>
+
+  /* 2. 强行隐藏包含 submenus 文本或带下拉菜单功能的标签 */
+  .navbar-nav .nav-item.dropdown,
+  .navbar-nav .nav-item:has(a[href*="dropdown"]),
+  .navbar-nav .nav-item a:contains("submenus") {
+    display: none !important;
+  }
+</style>

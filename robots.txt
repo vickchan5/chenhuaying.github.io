@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://chenhuaying.github.io/sitemap.xml
+Sitemap: https://chen-huaying.github.io/sitemap.xml
